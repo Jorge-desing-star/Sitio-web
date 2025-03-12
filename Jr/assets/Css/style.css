@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruge+Boogie&display=swap');
+
+body{
+    padding: 10px;
+    margin: 20px;
+    background-color: #6986ca;
+    font-family: "Poppins",serif;
+}
+/*Variables*/
+:root{
+    --main-color: #071952;
+    --secound--color: #088395;
+    --thrird-color: #37B7C3;
+    --white: #f2f2f2;
+    --black: #000000;
+}
+.margin-top-10x{
+    margin-top: 10px;
+}
+.margin-top-20r{
+    margin-top: 20%;
+}
+.margin-top-em{
+    margin-top: 2em;
+}
+.padding-10x{
+padding: 10px;
+}
+.padding-50x{
+    padding: 50px;
+}
+.padding-200x{
+    padding: 200px;
+}
+.box{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    place-items: center;
+    margin: 0;
+    border: 2px solid gray;
+    margin: 5px;
+    border-radius: 15px;
+}
+.box h3{
+    text-align: center;
+}
+.blue{
+    background-color: var(--main-color);
+}
+.aqua{
+    background-color: var(--secound--color);
+}
+.black{
+    background-color: var(--black);
+}
+.font-white{
+    color: var(--white);
+}
+
+h1{
+    color: var(--main-color);
+    font-size:  64px; /* Tamaño de la fuentes */
+    font-weight: bold; /* Peso de la fuente */
+    text-transform: uppercase;
+
+}
+.h2{
+    color: var(--secound--color);
+    font-size:  45px;
+    text-decoration: underline;
+}
+.servicios{
+    background-color: var(--thrird-color);
+    padding: 50px;
+}
+.servicios h2{
+    color: var(--white);
+    font-size:  35px;
+    font-weight: 8000;
+    text-transform: uppercase;
+}
+.servicios p{
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.3em;
+}

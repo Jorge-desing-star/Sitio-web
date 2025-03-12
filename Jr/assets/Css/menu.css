@@ -1,0 +1,53 @@
+:root{
+  --main-color: #261C2C;
+  --second-color: #3E2C41;
+  --third-color: #5C527F;
+  --white-color: #ffff;
+  --black-color: #0e0d0d;
+  --grey-color: #8a8282;
+}
+
+.container{ /*cajita donde estamos metiendo nuestro menu*/
+  width:100%; /*ancho de mi menu*/
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: rgb(203, 199, 228);
+
+}
+/* inicia la estructura de mi menu*/ 
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px; /*distancia entre el texto y la caja que lo contiene*/
+  height: 100px; /*altura de mi menu*/
+  
+}
+/*estructura de cada una de la opciones de mi menu*/ 
+.nav_links_list{
+  list-style-type: none;
+  display: flex;
+  gap: 0px 20px;
+  font-family: poppins;
+  font-size: 18px;
+  padding-right: 20px;
+  color: rgb(236, 219, 219);
+  text-transform: uppercase; /*pone en mayusculas el texto*/
+
+}
+
+/*cada uno de los enlaces de  mi menu*/
+.nav_link a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+.nav_link a:hover{
+color: rgb(110, 58, 141);
+}
+/* esta clase le da estrucutura a mi logo*/
+.nav_logo {
+  width: 150px;
+  margin-right: 10px;
+  padding-top: 10px;
+}

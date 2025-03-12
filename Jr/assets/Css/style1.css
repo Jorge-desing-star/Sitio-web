@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 40px;
+    color: rgb(21, 135, 97);
+    font-family: 'Times New Roman', Times, serif;
+}
+.contacto{ /* Clase */
+    width: 100%; /* Ancho */
+    padding-top: 10%;/* Espacio arriba */
+    color: black; /*espacio izquierda */
+    font-size: 18px;
+    background-color: rgb(10, 59, 59);
+
+}
+.contacto h1{
+    font-size: 36px; /* Tamaño de la fuentes */
+    color: rgb(18, 135, 135);
+    text-transform: uppercase; /* MAyusculas */
+}
+.contacto p {
+    font-size: 26px; /* Tamaño de la fuentes */
+    color: rgb(18, 135, 135);
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(45, 87, 87);
+    line-height: 1.8;
+}
+.red{
+    background-color: antiquewhite;
+}
+.blue{
+    background-color: rgb(22, 22, 96);
+    color: rgb(255, 255, 255);
+}
+.box{
+    width: 300px;
+    background-color: green;
+    border: 100px solid yellow;
+    padding: 1000px; /* los cuatro iguales osea a 50px de cada lado*/
+    margin:  50px 80px 50px 50px; /* top y bottom a 50px left y right 80px*/
+}

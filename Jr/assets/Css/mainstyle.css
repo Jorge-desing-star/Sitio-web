@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('menu.css');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/** Alineacion del texto */
+.center{
+    text-align: center;
+}
+/** About us*/
+
+.about{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    padding-left: 30px;
+    grid-template-columns: auto auto;
+    display:flex;
+
+}
+.about img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px;
+    margin: 10px;
+}
+.about .text{
+    padding-left: 90px;
+    padding-top:  12%;
+    padding-right: 20%;
+
+}
+
+
+.btn{
+    background-color: var(--second-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: var(--third-color);
+    color: var(--black-color);
+    transition: 3.0;
+}
+.btn a{
+    color: var(--white-color);
+    transition: 3.0;
+}
+
+ul{
+    list-style: none;
+}
+
+.servicios h3{
+    color: var(--white-color);
+    font-size: 24px;
+    text-align: center;
+}
+.servicios p{
+    color: var(--white-color);
+    font-size:  16px;
+}
+
+.servicios{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.servicios .items{
+    background-color: rgb(56, 116, 172);
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/*para las imagenes de los servicios*/
+.image{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 10px;
+    padding-left: 3%;
+}
+.contacto{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    grid-template-columns: auto auto;
+    display: grid;
+    gap: 20px;
+    padding:  5% 20px;
+    border-radius: 10px;
+
+}
+.contacto .input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    width: 90%;
+}
+.contacto label{
+    font-size: 20px;
+    display: block;
+    padding-top: 15px;
+}
+
+.contacto textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    display: block;
+    width: 90%;
+}
+.contacto button{
+    background-color: var(--second-color);
+    color: var(--white-color);
+    padding:  10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    width: 90%;
+}
